@@ -1,5 +1,5 @@
 /************************************************************
-** @Description: tria树 by golang
+** @Description: trie
 ** @Author: george hao
 ** @Date:   2018-02-07 14:04
 ** @Last Modified by:  george hao
