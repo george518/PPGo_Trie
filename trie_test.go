@@ -19,27 +19,25 @@ func TestTria_Insert(t *testing.T) {
 	tree.Insert("h")
 	tree.Insert("http")
 	tree.Insert("https")
-	//tree.Insert("httpswwwhaodaquancom")
-	//
-	//tree.Insert("haodaquan")
-	//tree.Insert("hello")
-	//tree.Insert("an")
+	tree.Insert("httds")
+	tree.Insert("htta")
+	tree.Insert("httb")
+	//tree.Insert("https://www.haodaquan.com")
 	//tree.Insert("a")
+	//tree.Insert("an")
+	//tree.Insert("a computer")
 	//tree.Insert("georgehao")
 
 	//查找
 	isword := tree.Search("httpsan")
-
 
 	fmt.Println("1================")
 	fmt.Println(isword)
 	PrintNode(tree.Root.Child)
 
 	//删除
-	index := tree.Remove("http")
+	index := tree.Remove("httb")
 	fmt.Println("2================")
 	fmt.Println(index)
 	PrintNode(tree.Root.Child)
-
-
 }
